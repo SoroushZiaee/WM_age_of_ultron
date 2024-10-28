@@ -1,0 +1,21 @@
+{
+    "total_parameters": 26931531,
+    "trainable_parameters": 3423499,
+    "non_trainable_parameters": 23508032,
+    "model_config": {
+        "num_classes": 10,
+        "hidden_size": 256,
+        "num_layers": 1,
+        "dropout_rate": 0.3,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+    },
+    "training_config": {
+        "max_epochs": 150,
+        "precision": 32,
+        "accumulate_grad_batches": 4,
+        "gradient_clip_val": 1.0,
+        "early_stopping_patience": 50,
+        "monitor_metric": "val/loss"
+    }
+}

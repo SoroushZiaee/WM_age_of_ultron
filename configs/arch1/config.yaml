@@ -1,0 +1,30 @@
+# config/config.yaml
+training:
+  max_epochs: 150
+  precision: 32
+  accumulate_grad_batches: 4
+  gradient_clip_val: 1.0
+  early_stopping_patience: 50
+  monitor_metric: "val/loss"
+  
+model:
+  model_type: "resnet_lstm"  # or "resnet_lstm"
+  num_classes: 10
+  hidden_size: 256
+  num_layers: 1
+  dropout_rate: 0.3
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+transforms:
+  resize_size: [224, 224]
+  normalize_mean: [0, 0, 0]
+  normalize_std: [1, 1, 1]
+
+data:
+  meta_file: "/home/soroush1/projects/def-kohitij/soroush1/WM_age_of_ultron/data/split_dataset/train_coco1600/coco1400_meta.csv"
+  img_dir: "/home/soroush1/projects/def-kohitij/soroush1/WM_age_of_ultron/data/split_dataset/train_coco1600/images_cocogray"
+  num_timesteps: 4
+  batch_size: 32
+  num_workers: 4
+  train_val_split: 0.8
