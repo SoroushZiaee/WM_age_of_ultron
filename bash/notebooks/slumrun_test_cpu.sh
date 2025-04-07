@@ -28,6 +28,6 @@ echo "Env has been set up"
 
 pip freeze
 
-python /home/soroush1/projects/def-kohitij/soroush1/vitalab-trianing-clean-code/scripts/prepare_server/datamodule_imagenet_preparation.py
+# python /home/soroush1/projects/def-kohitij/soroush1/vitalab-trianing-clean-code/scripts/prepare_server/datamodule_imagenet_preparation.py
 
 /home/soroush1/projects/def-kohitij/soroush1/vitalab-trianing-clean-code/bash/notebooks/lab.sh

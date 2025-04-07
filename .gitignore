@@ -171,5 +171,7 @@ cython_debug/
 *.csv
 *.txt
 *.joblib
+*.json
 logs/
 data/
+

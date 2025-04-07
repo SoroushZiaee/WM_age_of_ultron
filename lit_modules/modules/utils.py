@@ -129,7 +129,8 @@ class ModelLayers(Enum):
 
 class InferioTemporalLayer(Enum):
     ALEXNET = "features.12"
-    RESNET50 = "layer3.2.bn1"
+    RESNET50 = "layer4.0.relu"
+    # RESNET50 = "layer3.2.bn1"
     RESNET101 = "layer3.2.bn1"
     VGG16 = "features.30"
     VGG19 = "features.36"

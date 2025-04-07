@@ -33,6 +33,6 @@ echo "Env has been set up"
 
 pip freeze
 
-python /home/soroush1/projects/def-kohitij/soroush1/WM_age_of_ultron/scripts/prepare_server/datamodule_imagenet_preparation.py
+# python /home/soroush1/projects/def-kohitij/soroush1/WM_age_of_ultron/scripts/prepare_server/datamodule_imagenet_preparation.py
 
 /home/soroush1/projects/def-kohitij/soroush1/WM_age_of_ultron/bash/notebooks/lab.sh

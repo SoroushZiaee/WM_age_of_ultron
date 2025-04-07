@@ -1,1 +1,1 @@
-from .MuriDataset import MuriDataset
+from .MuriDataset import MuriDataset, Muri1320SequenceDataset
